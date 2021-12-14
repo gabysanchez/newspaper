@@ -10,7 +10,7 @@ _The project is still under development so only the develop version can be execu
 
 _To get started, you must have **Docker** installed in a version equal or higher than 3.3 and also have **NodeJS.**_
 
-### Instalación 🔧
+### Installation 🔧
 
 _From the **~/** you must run the command **docker-cpmpose up** to deploy the two databases, a phpMyAdmin is automatically added, if you wish you can remove it._
 
