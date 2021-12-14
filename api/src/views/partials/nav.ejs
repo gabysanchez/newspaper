@@ -1,0 +1,17 @@
+<nav>
+    <h1><a href="/news">NEWS</a></h1>
+    <div>
+        <form id="form" onsubmit=exec()>
+            <input id="search" type="search" name="id" placeholder="Search by reporter ID">
+            <input id="bt" type="submit" class="fas" value="&#xf002">
+        </form>
+        <script>
+            function exec() {
+                let action_src = " http://localhost:8080/news/" + document.getElementsByName("id")[0].value;
+                let form = document.getElementById('form');
+                form.method = "GET";
+                form.action = action_src;
+            }
+        </script>
+    </div>
+</nav>
