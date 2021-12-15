@@ -12,10 +12,10 @@ _To get started, you must have **Docker** installed in a version equal or higher
 
 ### Installation 🔧
 
-_From the **~/** you must run the command **docker-cpmpose up** to deploy the two databases, a phpMyAdmin is automatically added, if you wish you can remove it._
+_From the **~/** you must run the command **docker-compose up** to deploy the two databases, a phpMyAdmin is automatically added, if you wish you can remove it._
 
 _Command:_
-`$ docker-cpmpose up `
+`$ docker-compose up `
 
 _Go to the **~./api** directory and run the node_modules install command and start the application in development mode._
 
